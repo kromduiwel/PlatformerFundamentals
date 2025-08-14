@@ -1,0 +1,58 @@
+# --- Normalize line endings to LF for text files ---
+*           text=auto eol=lf
+
+# Unity text assets (YAML-based)
+*.meta      text eol=lf
+*.unity     text eol=lf
+*.prefab    text eol=lf
+*.mat       text eol=lf
+*.anim      text eol=lf
+*.controller text eol=lf
+*.asset     text eol=lf
+*.guiskin   text eol=lf
+*.shadervariants text eol=lf
+
+# Code / config / docs
+*.cs        text eol=lf
+*.cginc     text eol=lf
+*.compute   text eol=lf
+*.hlsl      text eol=lf
+*.glsl      text eol=lf
+*.js        text eol=lf
+*.json      text eol=lf
+*.xml       text eol=lf
+*.yaml      text eol=lf
+*.yml       text eol=lf
+*.txt       text eol=lf
+*.md        text eol=lf
+*.asmdef    text eol=lf
+*.asmref    text eol=lf
+*.rsp       text eol=lf
+*.shader    text eol=lf
+
+# Binary files (never touch line endings)
+*.png       -text
+*.jpg       -text
+*.jpeg      -text
+*.tga       -text
+*.psd       -text
+*.exr       -text
+*.hdr       -text
+*.pdf       -text
+*.zip       -text
+*.7z        -text
+*.dll       -text
+*.so        -text
+*.dylib     -text
+*.a         -text
+*.fbx       -text
+*.obj       -text
+*.blend     -text
+*.3ds       -text
+*.wav       -text
+*.mp3       -text
+*.ogg       -text
+*.aiff      -text
+*.ttf       -text
+*.otf       -text
+*.unitypackage -text
